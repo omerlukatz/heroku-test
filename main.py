@@ -17,12 +17,7 @@ def start():
 
 
 def register():
-	try:
-		database = open('users_database.json', 'r')
-		users = database.readlines()
-		database.close()
-	except FileNotFoundError:
-		users = []
+
 
 	
 	valid_u = False
